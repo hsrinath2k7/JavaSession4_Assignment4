@@ -1,0 +1,33 @@
+// Print reverse of String
+
+import java.util.Scanner;
+
+public class ReverseString {
+	
+	static String read;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.print("Enter a String value: ");
+		Scanner str = new Scanner(System.in);
+		read = str.next();
+		
+		StringBuffer reverseV = new StringBuffer(read); 
+		
+		
+		
+		System.out.println("Reverse of String:" + reverseV.reverse());
+		
+		
+	}
+
+}
+
+/* Output
+
+Enter a String value: encapsulation
+Reverse of String:noitaluspacne
+
+
+*/
